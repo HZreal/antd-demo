@@ -2,6 +2,10 @@ import {Button} from "antd";
 
 
 export const Test = () => {
+	function pop() {
+		alert('Hello, Vite + React + ant-design!')
+	}
+
 	return (
 		<>
 			<div className="App">
@@ -11,6 +15,3 @@ export const Test = () => {
 	)
 }
 
-function pop() {
-	alert('Hello, Vite + React + ant-design!')
-}
